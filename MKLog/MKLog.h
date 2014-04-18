@@ -3,7 +3,7 @@
 //  MKCommons
 //
 //  Created by Michael Kuck on 9/30/13.
-//  Copyright (c) 2013 Michael Kuck. All rights reserved.
+//  Copyright (c) 2013 Michael Kuck.
 //
 
 #import <Foundation/Foundation.h>
