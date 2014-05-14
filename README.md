@@ -27,9 +27,9 @@ BOOL MKIsUsingTimestamps();
 ````
 **Logging**
 ````Objective-C
-void MKLogError(@"Error message %@, param1, ...);
-void MKLogWarning(@"Warning message %@, param1, ...);
-void MKLogInfo(@"Info message %@, param1, ...);
-void MKLogDebug(@"Debug message %@, param1, ...);
-void MKLogVerbose(@"Verbose message %@, param1, ...);
+void MKLogError(@"Error message %@", param1, ...);
+void MKLogWarning(@"Warning message %@", param1, ...);
+void MKLogInfo(@"Info message %@", param1, ...);
+void MKLogDebug(@"Debug message %@", param1, ...);
+void MKLogVerbose(@"Verbose message %@", param1, ...);
 ````
