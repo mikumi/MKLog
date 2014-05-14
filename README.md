@@ -14,6 +14,8 @@ Features
 How to use
 ----------
 
+Copy ``MKLog.h|.m`` to your project and include ``MKLog.h`` either in a single file or ``-Prefix.pch`` for all files.
+
 **Configuration**
 ````Objective-C
 MKSetLogLevel(MKLogLevelNone|MKLogLevelError|MKLogLevelWarning|
