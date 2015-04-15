@@ -8,6 +8,8 @@
 
 #import "MKViewController.h"
 
+#import <MKLog/MKLog.h>
+
 @interface MKViewController ()
 
 @end
@@ -17,13 +19,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    MKSetLogLevel(MKLogLevelVerbose);
+    MKSetUseTimestamps(YES);
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    MKLogError(@"Error message %@", [NSString stringWithFormat:@"test object"]);
+    MKLogWarning(@"Warning message");
+    MKLogInfo(@"Info message");
+    MKLogDebug(@"Debug message");
+    MKLogVerbose(@"Verbose message");
 }
 
 @end

@@ -9,20 +9,15 @@
 
 Pod::Spec.new do |s|
   s.name             = "MKLog"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of MKLog."
+  s.version          = "0.1.1"
+  s.summary          = "Lightweight log with multiple log levels"
   s.description      = <<-DESC
-                       An optional longer description of MKLog
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A lightweight logger implementation for Objective-C with multiple log levels.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MKLog"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/mikumi/MKLog"
   s.license          = 'MIT'
   s.author           = { "Michael Kuck" => "me@michael-kuck.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MKLog.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/mikumi/MKLog.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -31,8 +26,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'MKLog' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s
 end
