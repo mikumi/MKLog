@@ -1,0 +1,14 @@
+PODS:
+  - MKLog (0.1.0)
+
+DEPENDENCIES:
+  - MKLog (from `../`)
+
+EXTERNAL SOURCES:
+  MKLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKLog: edb05b30aa302372b6877f0c97d468b3c0db0f9d
+
+COCOAPODS: 0.36.3
