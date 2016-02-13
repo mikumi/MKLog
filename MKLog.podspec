@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MKLog"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Lightweight log with multiple log levels"
   s.description      = <<-DESC
                        A lightweight logger implementation for Objective-C with multiple log levels.
